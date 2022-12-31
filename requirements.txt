@@ -6,6 +6,5 @@ scikit-learn
 matplotlib
 seaborn
 pillow
-urllib
 validators
 streamlit
