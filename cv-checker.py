@@ -142,7 +142,7 @@ def print_outputs(outputs):
         return "No Weapon found in the picture."
 
 def func(ur):
-    model = Model("model.onnx")
+    model = Model("https://github.com/SahilNDev/weapon_detectoin/blob/main/model.onnx?raw=true")
     z = f"test.{ur[-3:]}"
     urllib.request.urlretrieve(ur,z)
     outputs = model.predict(z)
