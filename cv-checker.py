@@ -1,4 +1,3 @@
-pip install onnx
 import urllib.request
 import numpy as np
 import onnx
